@@ -891,7 +891,7 @@ PlayableDirector:
   m_PlayableAsset: {fileID: 11400000, guid: 0e0ecc2583fb00247b905aad24f4d0bc, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
-  m_DirectorUpdateMode: 1
+  m_DirectorUpdateMode: 0
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 4766414097929680649, guid: 0e0ecc2583fb00247b905aad24f4d0bc, type: 2}
@@ -3900,7 +3900,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whistle: {fileID: 7783494734021386868}
   bgmDirector: {fileID: 1387477830093775394}
-  bgmStartDelay: 0.15
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using System.Collections;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.Timeline;
 
 namespace LeftRightGame
 {
@@ -15,14 +16,6 @@ namespace LeftRightGame
 
         public void StartBgm()
         {
-            if (SystemInfo.deviceType == DeviceType.Handheld)
-            {
-                bgmDirector.time = -0.4f;
-            }
-            else
-            {
-                bgmDirector.time = -0.1f;
-            }
             bgmDirector.Play();
         }
 
